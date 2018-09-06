@@ -1,22 +1,39 @@
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.pega-nav {
+	background: #202652;
+}
+.white-text {
+	color: white;
+}
+.agenda-tabs>li.active>a, .agenda-tabs>li.active>a:hover, .agenda-tabs>li.active>a:focus {
+	color: #00a6a6;
+	cursor: default;
+	background-color: #fff;
+	border: 2px solid #00a6a6;
+	border-bottom-color: transparent;
+}
+.agenda-tabs {
+	border-bottom: 2px solid #00a6a6;
+	color: white;
+}
+.agenda-tabs>li {
+	float: left;
+	margin-bottom: -2px;
+}
+.pega-agenda>h1 {
+	color: #00a6a6;
+	font-size: 32px;
+}
+.agenda-content h3 {
+	color: #202652;
+}
+.agenda-content strong {
+	font-size: 15px;
+}
+.agenda-session {
+	border: 1px solid #dedede;
+	padding: 8px;
+	margin: 8px;
+}
+.agenda-footer {
+	background: #00a6a6;
+}
